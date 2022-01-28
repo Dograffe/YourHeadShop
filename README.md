@@ -1,6 +1,7 @@
 # YourHeadShop
 
 #Basic Info
+
 This plugin is an Addon for ChestShop.
 
 When Purchasing from a Shop with itemID "Player Head" the player will be given their own head.
