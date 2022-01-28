@@ -12,10 +12,10 @@ public class HeadTransactionListener implements Listener
     {
         if(e.getSign().getLine(3).equals("Player Head"))
         {
-            new Thread(() ->
+            new Thread(() ->                        //create Async Process
             {
                 try {
-                    HeadSwapper SwapHead = new HeadSwapper(e.getClient());
+                    HeadSwapper SwapHead = new HeadSwapper(e.getClient());  //swap Default Player Head given by Chest shop with client's head
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }

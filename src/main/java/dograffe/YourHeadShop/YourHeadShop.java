@@ -7,12 +7,7 @@ public final class YourHeadShop extends JavaPlugin {
     @Override
     public void onEnable()
     {
-        getServer().getPluginManager().registerEvents(new HeadTransactionListener(), this);
+        getServer().getPluginManager().registerEvents(new HeadTransactionListener(), this); //register head transaction Listener
     }
 
-    @Override
-    public void onDisable()
-    {
-        // Plugin shutdown logic
-    }
 }

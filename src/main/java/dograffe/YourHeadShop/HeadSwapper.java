@@ -16,16 +16,16 @@ public class HeadSwapper
         SkullMeta skullMeta = (SkullMeta) PlayerHead.getItemMeta();
         assert skullMeta != null;
         skullMeta.setOwningPlayer(Bukkit.getPlayer(player.getDisplayName()));
-        PlayerHead.setItemMeta(skullMeta);
+        PlayerHead.setItemMeta(skullMeta);  //create Skull item of given player
         TimeUnit.MILLISECONDS.sleep(10);
 
-        for(ItemStack itemStack : player.getInventory().getContents())
+        for(ItemStack itemStack : player.getInventory().getContents())      //Search inventory for Default PlayerHead item given by chestshop
         {
             if(itemStack != null)
             {
                 if(itemStack.getType().equals(Material.PLAYER_HEAD) && !itemStack.hasItemMeta())
                 {
-                    itemStack.setItemMeta(skullMeta);
+                    itemStack.setItemMeta(skullMeta);       //replace default PlayerHead item with client's Head
                     break;
                 }
             }
