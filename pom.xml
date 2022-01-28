@@ -9,7 +9,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>ChestyHead</name>
+    <name>YoutHeadShop</name>
 
     <description>Chest shop addon which allows admin shops to sell players their own head</description>
     <properties>
