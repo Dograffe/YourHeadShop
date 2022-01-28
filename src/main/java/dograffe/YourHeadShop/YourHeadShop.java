@@ -1,10 +1,9 @@
-package dograffe.chesthead.chestyhead;
+package dograffe.YourHeadShop;
 
-import com.Acrobot.ChestShop.Plugins.ChestShop;
-import dograffe.chesthead.chestyhead.Listeners.*;
+import dograffe.YourHeadShop.Listeners.HeadTransactionListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class ChestyHead extends JavaPlugin {
+public final class YourHeadShop extends JavaPlugin {
     @Override
     public void onEnable()
     {
@@ -12,7 +11,8 @@ public final class ChestyHead extends JavaPlugin {
     }
 
     @Override
-    public void onDisable() {
+    public void onDisable()
+    {
         // Plugin shutdown logic
     }
 }

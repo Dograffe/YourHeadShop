@@ -1,5 +1,5 @@
-name: ChestyHead
+name: YourHeadShop
 version: '${project.version}'
-main: dograffe.chesthead.chestyhead.ChestyHead
+main: dograffe.YourHeadShop.YourHeadShop
 api-version: 1.18
 description: Chest shop addon which allows admin shops to sell players their own head

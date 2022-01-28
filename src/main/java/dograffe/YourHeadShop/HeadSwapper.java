@@ -1,4 +1,4 @@
-package dograffe.chesthead.chestyhead;
+package dograffe.YourHeadShop;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
