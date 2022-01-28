@@ -5,10 +5,7 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
-
 import java.util.concurrent.TimeUnit;
-
-import static java.lang.Thread.sleep;
 
 public class HeadSwapper
 {
