@@ -1,6 +1,6 @@
 # YourHeadShop
 
-#Basic Info
+# Basic Info
 
 This plugin is an Addon for ChestShop.
 
